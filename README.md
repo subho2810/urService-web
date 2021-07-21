@@ -8,9 +8,8 @@ Will connect the workers with the customers.
 The website still in progress 
 Technology required for the working of this website on local
 Host
-# Node js has to be installed
-# Xammp control panel has to be installed for the connection
-With apache and sql
-# should locally create a database in phpmyadmin
-# basic routing technique has to be known along with javascripty html and css
-# code editor used here is Visual studio code
+* Node js has to be installed
+* Xammp control panel has to be installed for the connection with apache and sql
+* should locally create a database in phpmyadmin
+* basic routing technique has to be known along with javascripty html and css
+* code editor used here is Visual studio code
