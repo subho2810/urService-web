@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>person detail</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+          <a href="/"> <img src="logo 1.png" width="175px">
+            </a>
+        </div>
+        <nav>
+            <ul id="Menuitems">
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="/account">Account</a></li>
+                
+            </ul>
+        </nav>
+        <img src="menu icoj.png" class="menu-icon" 
+        onclick="menutoggle()">
+
+</div>
+
+<div class="small-container single-desk">
+    <div class="row">
+        <div class="col-2">
+            <img src="man icon.png" width="100%">
+        </div>
+        <div class="col-2">
+        <p>Home/Service</p>
+        <h1>Mr. Vikash Kumar</h1>
+        <h3>Cook</h3>
+        <h3>Rs. 2.5 per minute</h3>
+        <h3>contact-9867565423</h3>
+        <select>
+            <option>Select time</option>
+            <option>15 minutes</option>
+            <option>30 minutes</option>
+            <option>60 minutes</option>
+            <option>To decide afterwars</option>
+            <option>others,please specify</option>
+        </select>
+        <br>
+        
+    
+        <h3>Service Details</h3>
+<br>
+        <p>He is a very trained cook. Higly recommended by our
+            website users.<br>His techniques and taste is very
+            different.His rate is also reasonable.<br>
+            Moreover he is very responsible and trustworthy.
+        </p>
+        <br>
+        <a href="" class="btn">Select Now</a>
+    </div>
+</div>
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Services</h2>
+        <p>View More</p>
+    </div>
+
+</div>
+<div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <img src="man icon.png">
+            <h4>Mr.Subham Sinha</h4>
+            <h3>Cook</h3>
+            <p>Rs. 3 per minute</p>
+        </div>
+        <div class="col-4">
+            <img src="man icon.png">
+            <h4>Mr. Rahul Singh</h4>
+            <h3>Driver</h3>
+            <p>Rs. 3 per minute</p>
+        </div>
+        <div class="col-4">
+            <img src="man icon.png">
+            <h4>Mr. Harry Kapoor</h4>
+            <h3>Driver</h3>
+            <p>Rs. 3 per minute</p>
+        </div>
+        <div class="col-4">
+            <img src="female 1.png">
+            <h4>Mrs. Swati Singh</h4>
+            <h3>Cook</h3>
+            <p>Rs. 3 per minute</p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download for Android and Ios mobile phones</p>
+                <div class="store">
+                    <img src="goggle play.png">
+                    <img src="app store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="logo 1.png">
+                <p>Our objective is to provide valuable services at 
+                    reasonable prices</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Service Policy</li>
+                    <li>Customer Benefits</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                <li>facebook</li>
+                <li>instagram</li>
+                <li>twitter</li>
+                <li>youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright-2021-TechGo</p>
+    </div>
+</div>
+</body>
+<script>
+    var Menuitems = document.getElementById("Menuitems");
+    Menuitems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(Menuitems.style.maxHeight == "0px")
+        {
+            Menuitems.style.maxHeight = "200px";
+        }
+        else{
+            Menuitems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</html>
